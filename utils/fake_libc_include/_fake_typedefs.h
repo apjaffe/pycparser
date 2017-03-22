@@ -1,6 +1,8 @@
 #ifndef _FAKE_TYPEDEFS_H
 #define _FAKE_TYPEDEFS_H
 
+#include "_fake_extra.h"
+
 typedef int size_t;
 typedef int __builtin_va_list;
 typedef int __gnuc_va_list;
@@ -152,4 +154,6 @@ typedef _Bool bool;
 
 typedef int va_list;
 
+
 #endif
+

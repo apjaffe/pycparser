@@ -1,6 +1,8 @@
 #ifndef _FAKE_DEFINES_H
 #define _FAKE_DEFINES_H
 
+#include "_fake_ansi.h"
+
 #define	NULL	0
 #define	BUFSIZ		1024
 #define	FOPEN_MAX	20
